@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Tenor Sans';
+  font-weight: 400;
+}
+
+.bg
+{
+  background-image:url('./Images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+:root
+{
+  /* --main-color:#038bff; */
+  --main-color:#000000;
+  --bg-color:#F6F6F6;
+  --component-color:#e4e4e4;
+  --text-color:#F6F6F6;
+  --after-color: var(--main-color), var(--main-color);
+}
+
+.shadow-white {
+  filter: drop-shadow(0px 0px 10px var(--main-color));
+}
+
+.after-effect:after {
+  --tw-translate-y: -50%;
+  --tw-content: "";
+  background-image: linear-gradient(to right, var(--after-color));
+  border-radius: 0.375rem;
+  content: var(--tw-content);
+  height: 0.125rem;
+  position: absolute;
+  top: 50%;
+  width:12rem;
+}
+
+.after-effect {
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+ .after-effect::after
+ {
+  display: none;
+ }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.905);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.modal {
+  background: white;
+  overflow-y: auto;
+}
