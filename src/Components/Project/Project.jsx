@@ -45,7 +45,7 @@ function Project() {
             Projects
           </h2>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-2 xl:grid-cols-3">
-            {projects.map((project, index) =>
+            {[...projects].reverse().map((project, index) =>
               project &&
               project.fields &&
               project.fields.projectTitle ? (
@@ -70,7 +70,7 @@ function Project() {
                 </div>
               ) : null
             )}
-          </div>
+           </div>
         </div>
       </section>
       <Modal

@@ -26,6 +26,7 @@
   --bg-color:#F6F6F6;
   --component-color:#e4e4e4;
   --text-color:#F6F6F6;
+  --head-text-color:#838383;
   --after-color: var(--main-color), var(--main-color);
 }
 

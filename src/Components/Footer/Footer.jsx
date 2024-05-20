@@ -14,13 +14,13 @@ function Footer() {
           <h1 className="text-[--main-color] text-2xl font-extrabold pb-5">
             Darshil Patel
           </h1>
-<p className="text-wrap w-full text-[--main-color] text-base text-justify sm:pr-10">Proficient in designing and developing blockchain applications on Hyperledger Fabric and Ethereum
+<p className="text-wrap w-full text-[--main-color] text-base sm:pr-10">Proficient in designing and developing blockchain applications on Hyperledger Fabric and Ethereum
 platforms. Skilled in implementing smart contracts and decentralized applications using Solidity. 
 </p>
         </div>
         <div className="col-span-3">
           <div className="space-y-3">
-            <Link to="#" target="_blank" rel="noopener noreferrer" className="flex">
+            <Link to="https://www.instagram.com/darshil.infolanze/" target="_blank" rel="noopener noreferrer" className="flex">
               <div className="w-8 h-8 bg-black shadow-sm p-1 rounded-lg  transition-all duration-300 ease-in-out cursor-pointer">
                 <FaInstagram className="text-[--bg-color] text-2xl" />
               </div>
