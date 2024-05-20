@@ -68,25 +68,27 @@ function Resume() {
               </h4>
             </div>
             <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  bg-[--main-color]">
-              <span className="text-tiny text-[--text-color]">2022</span>
+              <span className="text-tiny text-[--text-color]">Dec 2023 - Present</span>
               <h3 className="text-xl text-[--bg-color]">
-                Freelance Full-Stack Developer
+              Freelance Blockchain Developer
               </h3>
-            </div>
-            <div className="py-4 pl-5 pr-3 space-y-2 rounded-lg  mb-6 bg-[--main-color]">
-              <span className="text-tiny text-[--text-color]">2021-2022</span>
+            </div> 
+            <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  bg-[--main-color]">
+              <span className="text-tiny text-[--text-color]">Sep 2021 - Nov 2023</span>
               <h3 className="text-xl text-[--bg-color]">
-                Full-Stack Developer
+              Blockchain Developer
               </h3>
               <p className="text-[#909090]">
                 Inferenz Tech Private Limited, Ahmedabad, India
               </p>
-            </div>
-            <div className="py-4 pl-5 pr-3 space-y-2 rounded-lg  bg-[--main-color]">
-              <span className="text-tiny text-[--text-color]">2020-2021</span>
-              <h3 className="text-xl text-[--bg-color]">React JS Devloper</h3>
+            </div>  
+             <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  bg-[--main-color]">
+              <span className="text-tiny text-[--text-color]">Dec 2020 - Aug 2021</span>
+              <h3 className="text-xl text-[--bg-color]">
+              React JS Developer
+              </h3>
               <p className="text-[#909090]">Ping DR, Ahmedabad, India</p>
-            </div>
+            </div> 
           </div>
 
           <div>
@@ -99,14 +101,14 @@ function Resume() {
             <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  bg-[--main-color]">
               <span className="text-tiny text-[--text-color]">2023</span>
               <h3 className="text-xl text-[--bg-color]">
-                Blockchain Devloper
+              Full-Stack Blockchain Devloper
               </h3>
               <p className="text-[#909090]">by LinkedIn Learning</p>
             </div>
             <div className="py-4 pl-5 pr-3 space-y-2 rounded-lg  mb-6 bg-[--main-color]">
               <span className="text-tiny text-[--text-color]">2023</span>
               <h3 className="text-xl text-[--bg-color]">
-                Introduction to MongoDB
+                Introduction to Solidity
               </h3>
               <p className="text-[#909090]">by LinkedIn Learning</p>
             </div>
