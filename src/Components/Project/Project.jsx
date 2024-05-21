@@ -54,12 +54,12 @@ function Project() {
                   className="bg-[--component-color] p-1 rounded-2xl border border-[#d1d1d1]"
                 >
                   <div
-                    className="lg:h-[250px] md:h-45 h-35 sm:h-40 border-[#121212] border-b-2 cursor-pointer"
+                    className="lg:h-[250px] md:h-45 h-35 sm:h-40 border-[#121212] border-b-2 cursor-pointer relative overflow-hidden rounded-t-xl"
                     onClick={() => openModal(project)}
                   >
                     <img
                       src={project.fields.projectImage.fields.file.url}
-                      className="h-[100%] w-[100%] rounded-t-xl object-fill object-center"
+                      className="h-[100%] w-[100%]  object-fill object-center hover:transform hover:scale-[1.07] transition-all duration-[0.5s]"
                       alt={project.fields.projectTitle}
                     />
                   </div>
