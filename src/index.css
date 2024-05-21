@@ -73,4 +73,5 @@
 .modal {
   background: white;
   overflow-y: auto;
+  outline: none;
 }
